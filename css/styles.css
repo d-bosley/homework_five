@@ -1,0 +1,175 @@
+* {
+  margin: 0 auto;
+}
+
+body,
+head {
+  width: 100vw;
+  max-width: 1280px;
+  min-width: 500px;
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#home_top {
+  width: 100%;
+  max-width: 1280px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#home_top nav a {
+  font-size: 1.2vw;
+  font-weight: 200;
+  font-family: "Gill Sans", sans-serif;
+  letter-spacing: 1px;
+  padding-left: 5px;
+  color: black;
+}
+#home_top nav span {
+  color: #79ADDC;
+  font-size: 20px;
+  padding: 0 5px 0 10px;
+}
+#home_top h2 {
+  color: black;
+  font-size: 2vw;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+}
+
+#line {
+  height: 3px;
+  width: 80%;
+  max-width: 1000px;
+  background-color: black;
+  position: absolute;
+  top: 80px;
+  left: 6%;
+  right: 6%;
+  margin: auto;
+}
+
+#divider {
+  width: 100%;
+  max-width: 1280px;
+  height: 92px;
+}
+
+#about_read {
+  height: 300px;
+  width: 100%;
+  max-width: 1020px;
+}
+#about_read h1 {
+  font-size: 70px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: black;
+  margin-top: 20px;
+}
+#about_read .line_2 {
+  height: 2px;
+  width: 171px;
+  background-color: black;
+  position: absolute;
+}
+#about_read p {
+  margin-top: 24px;
+  width: 1040px;
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+#about_test {
+  height: 600px;
+  width: 100%;
+  max-width: 1020px;
+}
+#about_test h1 {
+  font-size: 56px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#about_test .line_3 {
+  height: 2px;
+  width: 255px;
+  background-color: black;
+  position: absolute;
+  top: 500px;
+}
+#about_test div {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  margin-bottom: 38px;
+}
+#about_test div img {
+  object-fit: cover;
+  object-position: 0;
+  position: absolute;
+  width: 260px;
+  height: 150px;
+}
+#about_test div p {
+  color: black;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 19px;
+  padding: 10px 30px 0 0;
+  width: 430px;
+  letter-spacing: 2px;
+  word-spacing: 6.5px;
+  font-family: "Gill Sans", sans-serif;
+}
+#about_test div .signature {
+  color: #79ADDC;
+  font-weight: 100;
+  font-size: 22px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  position: absolute;
+  margin-top: 96px;
+  margin-left: 590px;
+}
+
+#home_foot {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #79ADDC;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#home_foot h2 {
+  color: white;
+  font-size: 2vw;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 1280px) {
+  #home_top nav a {
+    font-size: 16px;
+  }
+  #home_top h2 {
+    font-size: 26px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
